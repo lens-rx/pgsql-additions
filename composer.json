@@ -11,5 +11,10 @@
             "email": "shawn.haggard@lyteworx.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "classmap": ["src/"]
+    }
+
 }
