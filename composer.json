@@ -1,0 +1,14 @@
+{
+    "name": "lens-rx/pgsql-additions",
+    "description": "Provides additional Postgres types to ELoquent",
+    "require": {
+        "illuminate/database": "~4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shawn Haggard",
+            "email": "shawn.haggard@lyteworx.com"
+        }
+    ]
+}
