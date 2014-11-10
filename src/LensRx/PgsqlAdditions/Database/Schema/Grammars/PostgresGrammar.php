@@ -16,14 +16,14 @@ class PostgresGrammar extends \Illuminate\Database\Schema\Grammars\PostgresGramm
     }
 
     /**
-     * Create the column definition for a jsonb type.
+     * Create the column definition for a uuid type.
      *
      * @param  \Illuminate\Support\Fluent  $column
      * @return string
      */
     protected function typeUuid(Fluent $column)
     {
-        return "jsonb";
+        return "uuid";
     }
 
 }
